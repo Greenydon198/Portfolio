@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-primary text-white p-5 text-center">
+      <h1>Welcome to my Portfolio</h1>
+      <p>I showcase my projects and skills here</p>
+    </section>
+    <section class="container">
+      <h1 class="text-center mt-5">About me</h1>
+      <div class="row mx-auto">
+        <div class="col-lg-4 col-sm-12">
+          <img class="w-100"
+            src="https://media.istockphoto.com/id/610003972/vector/vector-businessman-black-silhouette-isolated.jpg?s=612x612&w=0&k=20&c=Iu6j0zFZBkswfq8VLVW8XmTLLxTLM63bfvI6uXdkacM="
+            alt="my-img"
+          />
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <p>
+            (A BRIEF DESC ABOUT YOU.)<br>
+            Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quibusdam, totam. Vitae quis dicta mollitia tenetur placeat
+            veniam amet minus impedit excepturi, esse quibusdam architecto
+            illum, deserunt delectus beatae minima aut quae in, facere earum.
+            Esse alias quod, quis hic perspiciatis ipsa. Tempore quos,
+            consequuntur similique quaerat dignissimos ad est in. sit amet
+            consectetur adipisicing elit. Perferendis labore at rerum tempora
+            nemo iusto ipsa totam eum, similique laborum ipsam velit ducimus qui
+            dolorum vitae quam! Magni molestiae culpa beatae optio
+            exercitationem quasi a, deserunt eligendi eaque officia sint
+            obcaecati dolore. Iste odio dolore error! Nobis nam accusamus
+            tempora?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light mt-5">
+      <div class="container py-5">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="card shadow-lg align-items-center">
+              <img
+                src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg"
+                class="card-img-top"
+                alt="coding-img"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Project 1</h5>
+                <p class="card-text">
+                  (Desc of your project)<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi sint veritatis blanditiis provident et?
+                </p>
+              </div>
+              <a href="#" class="btn btn-primary w-50 mb-4">Visit here</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="card shadow-lg align-items-center">
+              <img
+                src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg"
+                class="card-img-top"
+                alt="coding-img"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Project</h5>
+                <p class="card-text">
+                  (Desc of your project)<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi sint veritatis blanditiis provident et?
+                </p>
+              </div>
+              <a href="#" class="btn btn-primary w-50 mb-4">Visit here</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+            <div class="card align-items-center">
+              <img
+                src="https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg"
+                class="card-img-top"
+                alt="coding-img"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">Project</h5>
+                <p class="card-text">
+                  (Desc of your project)<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi sint veritatis blanditiis provident et?
+                </p>
+              </div>
+              <a href="#" class="btn btn-primary w-50 mb-4">Visit here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form py-3">
+      <h1 class="text-center">Let's Connect</h1>
+      <div class="row">
+        <div class="col-lg-4 col-md-8 col-8 mx-auto align-items-center">
+          <form class="d-flex flex-column w-100 justify-content-center">
+            <label for="fname" class="form-label">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              class="form-control"
+              placeholder="John Doe"
+            />
+            <p class="form-text">
+              Don't worry, we will not share the detail with anyone
+            </p>
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="johndoe@gmail.com"
+            />
+            <p class="form-text">
+              Don't worry, we will not share the detail with anyone
+            </p>
+            <label class="form-label">Message</label>
+            <textarea
+              type="text"
+              class="form-control"
+              rows="5"
+              placeholder="Write your message"
+            ></textarea>
+            <button class="btn btn-primary mt-3 w-50 mx-auto">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="bg-dark text-white text-center p-4">
+      © 2023 My Portfolio. All rights reserved.
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
